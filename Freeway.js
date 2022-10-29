@@ -8,6 +8,7 @@ function setup() {
     mostraCarro();
     movimentaCarro();
     movimentaAtor1();
+    voltaPosicaoInicial();
   }
   
   
