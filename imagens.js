@@ -10,14 +10,5 @@ function preload() {
   imagemCarro = loadImage("imagens/carro-1.png");
   imagemCarro2 = loadImage("imagens/carro-2.png");
   imagemCarro3 = loadImage("imagens/carro-3.png");
-
-}
-
-function movimentaAtor1() {
-  if (keyIsDown(UP_ARROW)) {
-    yAtor1 -= 3;
-  }
-  if (keyIsDown(DOWN_ARROW)) {
-    yAtor1 += 3;
-  }
+  imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3]
 }
