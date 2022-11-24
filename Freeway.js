@@ -1,10 +1,7 @@
+
 function setup() {
-    createCanvas(500, 400);
-  }
-  
-  function draw() {
-   function setup() {
   createCanvas(500, 400);
+  somDaTrilha.loop();
 }
 
 function draw() {
@@ -15,6 +12,7 @@ function draw() {
   movimentaAtor();
   voltaPosicaoInicial();
   verificaColisao();
+  incluiPontos();
+  marcaPonto();
 }
 
-  
